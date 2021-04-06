@@ -39,12 +39,13 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@example.net";
-$address = "example@example.net";
+$address = "tbreydo@gmail.com";
 
 
 // Configuration option.
 // i.e. The standard subject will appear as, "You've been contacted by John Doe."
 
+// NOT a static feature so it doesn't work with Github Pages.
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
 $e_subject = 'You have been contacted by ' . $name . '.';

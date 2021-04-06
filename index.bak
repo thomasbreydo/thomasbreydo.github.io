@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thomas Breydo</title>
+    <meta
+      name="description"
+      content="I'm an avid programmer and interested in math, computer science, and software engineering."
+    />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Thomas Breydo" />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+
+    <!-- Magnificpopup Css -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+
+    <!--Material Icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/materialdesignicons.min.css"
+    />
+    <!--Unicons Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+
+    <!--Font Awesome -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/9e4151f62d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Slider-->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/owl.transitions.css" />
+
+    <!-- Custom  Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">THOMAS BREYDO</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <!-- <li class="nav-item">
+                            <a class="nav-link" href="#price">Pricing</a>
+                        </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END-->
+
+    <!-- HOME START-->
+    <section class="bg-home-half" id="home">
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9">
+                <!-- <h5 class="home-small-title text-uppercase mb-4">We create the web</h5> -->
+                <h2 class="home-title mb-4">Hi, I'm Thomas.</h2>
+                <p class="home-desc">
+                  I'm an NYC-based programmer, developer, and student.
+                  <!-- TODO -->
+                </p>
+                <div class="pt-4">
+                  <a href="#portfolio" class="btn btn-custom smooth-link"
+                    >SEE MY PROJECTS<i class="mdi mdi-arrow-right ml-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME END-->
+
+    <!-- WELCOME START -->
+    <!-- <section class="section" id="service">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <h4 class="title-heading">Our solution for your business</h4>
+                            <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                    <i class="uil uil-water"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Natural Flow</h5>
+                                    <p class="text-muted">
+                                        Holuptate velit esse moleiae quam nihil consequatur voluptas nulla every pariatur?"
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                     <i class="uil uil-dropbox"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Awesome Design</h5>
+                                    <p class="text-muted">
+                                        Vestibulum mollis nibh interdum aculis proin auctor vulputate facilisis Etiam
+                                        convallis posuere.
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                    <i class="uil uil-focus-target"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Easy to customize</h5>
+                                    <p class="text-muted">
+                                        Proin quis elit vitae nisi interdum ullamcorper sit amet eget diam sed non ornare
+                                        libero.
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row pt-3">
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                    <i class="uil uil-fire"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Hot Looks</h5>
+                                    <p class="text-muted">
+                                        Consec tetureu suscipit metorbi dictum nec risus venenatis dictum duty vulputate.
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                    <i class="uil uil-game-structure"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Unrivaled Quality</h5>
+                                    <p class="text-muted">
+                                        Maenas sagittis placerat scele risque tempor Aliquam placerat neque scelerisque
+                                        consectetur.
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="features-box mt-4">
+                            <div class="media">
+                                <div class="features-icon text-center">
+                                    <i class="uil uil-flower"></i>
+                                </div>
+                                <div class="media-body ml-4">
+                                    <h5 class="mt-0 f-19">Clean Design</h5>
+                                    <p class="text-muted">
+                                        Aliquam dicadtunc senulla congue posuere bibendum erat sit amet tortor finibus.
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section> -->
+    <!-- WELCOME END -->
+
+    <!-- PORTFOLIO START-->
+    <section class="section anchor bg-white pb-0" id="portfolio">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center">
+              <h4 class="title-heading text-uppercase">My Projects</h4>
+              <p class="title-desc text-muted mt-3">
+                Huge collection of elements, rich customization options,
+                flexible layouts, stunning pages and instant results!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- portfolio menu -->
+        <div class="row mt-4">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <ul
+                class="col container-filter categories-filter list-unstyled mb-0"
+                id="filter"
+              >
+                <li><a class="categories active" data-filter="*">All</a></li>
+                <li>
+                  <a class="categories" data-filter=".profile">Profile</a>
+                </li>
+                <li>
+                  <a class="categories" data-filter=".business">Business</a>
+                </li>
+                <li>
+                  <a class="categories" data-filter=".finance">Finance</a>
+                </li>
+                <li>
+                  <a class="categories" data-filter=".marketing">Marketing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End portfolio  -->
+      </div>
+
+      <!-- Gallary -->
+      <div class="container-fluid">
+        <div class="row container-grid mt-5 projects-wrapper">
+          <div class="img-max-width">
+            <div class="item-box">
+              <a
+                class="cbox-gallary1 mfp-image"
+                href="images/portfolio/work-1.jpg"
+                title="Project Name"
+              >
+                <img
+                  class="item-container profile business"
+                  src="images/portfolio/work-1.jpg"
+                  alt="1"
+                />
+                <div class="item-mask">
+                  <div class="item-caption">
+                    <h5 class="text-dark">Centerd Gallary</h5>
+                    <p class="text-muted">client: Kay Garland</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-max-width business finance">
+            <div class="item-box">
+              <a
+                class="cbox-gallary1 mfp-image"
+                href="images/portfolio/work-8.jpg"
+                title="Project Name"
+              >
+                <img
+                  class="item-container mfp-fade"
+                  src="images/portfolio/work-8.jpg"
+                  alt="2"
+                />
+                <div class="item-mask">
+                  <div class="item-caption">
+                    <h5 class="text-dark">Sidebar Stack</h5>
+                    <p class="text-muted">client: Kay Garland</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-max-width profile business">
+            <div class="item-box">
+              <a
+                class="cbox-gallary1 mfp-image"
+                href="images/portfolio/work-3.jpg"
+                title="Project Name"
+              >
+                <img
+                  class="item-container"
+                  src="images/portfolio/work-3.jpg"
+                  alt="3"
+                />
+                <div class="item-mask">
+                  <div class="item-caption">
+                    <h5 class="text-dark">Grid – Overlay</h5>
+                    <p class="text-muted">client: Kay Garland</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-max-width marketing">
+            <div class="item-box">
+              <a
+                class="cbox-gallary1 mfp-image"
+                href="images/portfolio/work-2.jpg"
+                title="Project Name"
+              >
+                <img
+                  class="item-container"
+                  src="images/portfolio/work-2.jpg"
+                  alt="4"
+                />
+                <div class="item-mask">
+                  <div class="item-caption">
+                    <h5 class="text-dark">Distinctive</h5>
+                    <p class="text-muted">client: Kay Garland</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-max-width finance marketing">
+            <div class="item-box">
+              <a
+                class="cbox-gallary1 mfp-image"
+                href="images/portfolio/work-6.jpg"
+                title="Project Name"
+              >
+                <img
+                  class="item-container"
+                  src="images/portfolio/work-6.jpg"
+                  alt="5"
+                />
+                <div class="item-mask">
+                  <div class="item-caption">
+                    <h5 class="text-dark">Sustainable</h5>
+                    <p class="text-muted">client: Kay Garland</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="img-max-width profile marketing">
+            lass="item-box">
+              <a
+ <a
+               
+               
+              >
+ <a class="cbox-llar
+                 y1 mfp-image" href="ima
+                 ges/portfolio/work-5.jpg" title="P
+                 roject N">
+                />
+                <img class="item-container" src="images/portfolio/work-5.jpg" alt="6" />
+                   class="item-mask">
+                <div class="item-caption">
+                    <h5 class="text-dark">Popup Hover</h5>
+                      <p class="text-muted">client: Kay Garland</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                    </div>
+
+           < class="img-max-width business">
+              <a
+          <div lass="item-box">
+               
+               
+              >
+            <a class
+                 ="cbox-gallary1 mfp-ima
+                 ge" href="images/portfolio/work-7.
+                 jpg" tit"Project Name">
+                />
+                <img class="item-container" src="images/portfolio/work-7.jpg" alt="7" />
+               <di class="item-mask">
+                     class="item-caption">
+           <h5 class">Vendor</h5>
+                      <p class="text-muted">client: Kay Garland</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                    </div>
+
+         <di class="img-max-width marketing">
+              <a
+           <divlass="item-box">
+               
+               
+              >
+            <a class
+                 ="cbox-gallary1 mfp-ima
+                 ge" href="images/portfolio/work-4.
+                 jpg" tit"Project Name">
+                />
+                <img class="item-container" src="images/portfolio/work-4.jpg" alt="8" />
+                   class="item-mask">
+                     class="item-caption">
+                    <h5 class="text-dark">Slider Cover</h5>
+                      <p class="text-muted">client: Kay Garland</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- PORTFOLIO END-->
+
+            <!-- CLIENT START -->
+      tion class="section" id="client">
+    <div class="container">
+           class="row justify-content-center">
+             class="col-g-7">
+          <div class=" text-center">
+              <h4 class="title-heading text-uppercas
+                e">Testimonial</h4>
+               
+                value.
+              </p>
+                </div>
+              </           </div>
+</div>
+
+
+       <di class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+
+             <di class="testi-box">
+                   class="text-center mt-4">
+                     class="testi-content">
+                      
+                     
+                     
+                     
+                     
+                    </p>
+                      <p class="user-review text-center mb-0">" Their separate existence is a myth. For science music sport etc Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language "</p>
+                  </div>
+                    <img
+                <div ss="mt-4">
+                     
+                     
+                    />
+                      <img src="images/client/111.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
+                  </div>
+                <div class="img-post text-center">
+                    <p class="testi-patients text-muted mb-1 mt-3">Founder</p>
+                      <h5 class="testi-client-name">Willimore Wilson</h5>
+                    </div>
+                  </div>
+                            </div>
+
+                 class="testi-box">
+                   class="text-center mt-4">
+                     class="testi-content">
+                      
+                     
+                     
+                     
+                     
+                    </p>
+                      <p class="user-review text-center mb-0">" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English."</p>
+                  </div>
+                    <img
+                 <divss="mt-4">
+                     
+                     
+                    />
+                      <img src="images/client/122.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
+                  </div>
+                <div class="img-post text-center">
+                    <p class="testi-patients text-muted mb-1 mt-3">Ceo</p>
+                      <h5 class="testi-client-name">Charley Brown</h5>
+                    </div>
+                  </div>
+                            </div>
+
+                 class="testi-box">
+                   class="text-center mt-4">
+                     class="testi-content">
+                      
+                     
+                     
+                     
+                    </p>
+                      <p class="user-review text-center mb-0">" Looking for an event WordPress theme? Look no further—we’ve got pre-built websites for over 20 different types of events: birthday party, wedding, course launch, marketing event, conference, seasonal event."</p>
+                  </div>
+                    <img
+                 <divss="mt-4">
+                     
+                     
+                    />
+                      <img src="images/client/133.jpg" alt="" class="img-fluid rounded-circle testi-user mx-auto d-block">
+                  </div>
+                     class="img-post text-center">
+                    <p class="testi-patients text-muted mb-1 mt-3">Manager</p>
+                      <h5 class="testi-client-name">Norden Sophie</h5>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- CLIENT END -->
+
+    <!--  PLANS START  -->
+      tion class="section bg-light" id="price">
+    <div class="container">
+           class="row justify-content-center">
+             class="col-lg-7">
+               class="text-center">
+              <h4 class="title-heading text-uppercas
+                e">Our Pricing</h4>
+               
+                value.
+              </p>
+                </div>
+          </div>
+            </div>
+                </div>
+
+       <di class="row mt-4">
+        <div class="col-lg-4">
+               class="price mt-4 p-5">
+                 class="item text-center">
+                 < class="type pb-3">
+                    <h4>Regular</h4>
+                                </div>
+
+                   class="value">
+                  <h3>10.<span>99$</span></h3>
+                    <span class="per text-muted">Per Month</span>
+                                </div>
+
+                   class="feature">
+                    class="list-unstyled text-muted">
+                    <li>Bandwidth: 1GB</li>
+                    <li>Onlinespace: 500MB</li>
+                    <li>Support: No</li>
+                    <li>Domain: 1</li>
+                    <li>50 Projects per month</li>
+                      <li>-</li>
+                    </ul>
+                                </div>
+
+                  >
+                    <a href="#" class="btn btn-custom">Order Now</a>
+                  </div>
+                </div>
+              </div>
+                    </div>
+
+         <di class="col-lg-4">
+          <div class="price bg-white mt-4 p-5">
+
+                   class="type pb-3">
+                    <h4>Startup</h4>
+                                </div>
+
+                   class="value">
+                  <h3>30.<span>99$</span></h3>
+                    <span class="per">Per Month</span>
+                                </div>
+
+                   class="feature">
+                    class="list-unstyled">
+                    <li>Bandwidth: 2GB</li>
+                    <li>Onlinespace: 1GB</li>
+                    <li>Support: No</li>
+                    <li>Domain: 3</li>
+                    <li>200 Projects per month</li>
+                      <li>Hidden Fees: No</li>
+                    </ul>
+                                </div>
+
+                  >
+                    <a href="#" class="btn btn-custom">Order Now</a>
+                  </div>
+                </div>
+              </div>
+                    </div>
+
+             class="col-lg-4">
+               class="price mt-4 p-5">
+                 class="item text-center">
+                   class="type pb-3">
+                    <h4>Business</h4>
+                                </div>
+
+                <d class="value">
+                  <h3>80.<span>99$</span></h3>
+                    <span class="per text-muted">Per Month</span>
+                                </div>
+
+                   class="feature">
+                  <uclass="list-unstyled text-muted">
+                    <li>Bandwidth: 4GB</li>
+                    <li>Onlinespace: 2GB</li>
+                    <li>Support: No</li>
+                    <li>Domain: Unlimited</li>
+                    <li>Unlimited Projects per month</li>
+                      <li>Hidden Fees: No</li>
+                    </ul>
+                                </div>
+
+              <div>
+                    <a href="#" class="btn btn-custom">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- PLANS END -->
+
+    <!-- TEAM START -->
+   <setion class="section" id="about">
+          <div class="container">
+    		<div="row justify-content-center">
+        <div class="col-lg-12">
+             < class="about-title mx-auto te
+                xt-center">
+               
+             
+                             <h2 class="f
+                ont-weight-light">A Digital web studio creating stunning  & Enga
+               ging online Experiences </h2>
+               
+               
+        					<</p>
+  p class="text-muted pt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
+              </div>
+            </div>
+              </div>
+		<!-- FUN-FACTS -->
+           class="row justify-content-center mt-5" id="counter">
+             class="col-lg-3">
+                   <div class="text-muted text-center">
+             	ass="counter-value font-weight-normal">128+</h3>
+             <p>Projects</p>
+              </div>
+                    </div>
+
+        <div class="col-lg-3">
+              div class="text-muted text-center about-border-left">
+             	<h3 class="counter-value font-weight-normal">89</h3>
+             <p>Clients</p>
+              </div>
+                    </div>
+
+        <div class="col-lg-3">
+                               <div class="text-muted text-center about-border-left">
+              <h3 class="counter-value font-weight-normal">15842</h3>
+				<p>Membe
+              </div>
+                    </div>
+
+             class="col-lg-3">
+              div class="text-muted text-center about-border-left">
+              <h3 class="counter-value font-weight-normal">125</h3>
+             <p>Employee</p>
+              </div>
+            </div>
+        </div>
+          div class="row mt-5">
+            div class="col-lg-3">
+              div 
+               class="mt-3">
+               
+               
+              /
+              <img src="images/team/1.jpg" alt="" class="img-fluid team-member mx-auto d-block rounded-circle img-thumbnail">
+                div class="text-center mt-3">
+                <p class="font-weight-medium mb-0">Wade G. Wilhite</p>
+              	<p class="text-muted mb-0">CEO/Founder</p>
+            	</div>
+          	</div>
+          </div>
+            div class="col-lg-3">
+              div 
+               class="mt-3">
+               
+               
+              />
+              <img src="images/team/2.jpg" alt="" class="img-fluid team-member mx-auto d-block rounded-circle img-thumbnail">
+                div class="text-center mt-3">
+                <p class="font-weight-medium mb-0">William S. Blay</p>
+              	<p class="text-muted mb-0">CTO/Co-Founder</p>
+            	</div>
+          	</div>
+          </div>
+            div class="col-lg-3">
+              div 
+               class="mt-3">
+               
+               
+              />
+              <img src="images/team/3.jpg" alt="" class="img-fluid team-member mx-auto d-block rounded-circle img-thumbnail">
+                div class="text-center mt-3">
+                <p class="font-weight-medium mb-0">Matthew B. Morales</p>
+              	<p class="text-muted mb-0">Web Designer</p>
+            	</div>
+          	</div>
+          </div>
+            div class="col-lg-3">
+              div 
+               class="mt-3">
+               
+               
+              />
+              <img src="images/team/4.jpg" alt="" class="img-fluid team-member mx-auto d-block rounded-circle img-thumbnail">
+                div class="text-center mt-3">
+                <p class="font-weight-medium mb-0">Luke L. Johnston</p>
+              	<p class="text-muted mb-0">Web Developer</p>
+            	</div>
+          	</div>
+        	</div>
+             </div>
+    	</div>
+    </section>
+        <!-- TEAM END -->
+
+    <!-- START CTA -->
+      tion class="section bg-cta">
+     <di class="container">
+           class="row justify-content-center">
+             class="col-lg-8">
+               class="text-center">Ready to start your 
+            </h3>
+                web project now?</h3>
+              
+             
+            </p>
+            <p class="cta-desc text-center mt-3">When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it.</p>
+            <div class="text-center mt-4">
+              <a h="#" class="btn btn-custom">Get Started</a>
+              </div>   
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- END CTA -->
+
+    <!-- BLOG START -->
+      tion class="section bg-light" id="blog">
+    <div class="container">
+           class="row justify-content-center">
+             class="col-lg-7">
+               class="text-center">
+              <h4 class="title-heading text-uppercas
+                e">Latest News</h4>
+               
+              </p>
+                <p class="title-desc text-muted mt-3">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results.</p>
+              </div>
+            </div>
+ </div>
+        
+          v class="row mt-4">
+             class="col-lg-4">
+          <div class="blog-menu mt-4"> /
+              <img src="images/blog/1.jpg" class="img-fluid" alt="">
+                <h4>
+              <div
+                    
+                  
+                </h4>
+                <h4><a href="" class="blog-
+                  title">Want to know how Deep Learning works?</a></h4>
+                 
+                </p>
+                <p class="mt-2 text-muted">fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                   class="mt-3">
+                    
+                  ></a>
+                    <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+             class="col-lg-4">
+          <div class="blog-menu mt-4"> /
+              <img src="images/blog/2.jpg" class="img-fluid" alt="">
+                <h4>
+              <div>
+                    
+                  
+                </h4>
+                <h4><a href="" class="blog-
+                  title">How to become a skilled Developer</a></h4>
+                 
+                </p>
+                <p class="mt-2 text-muted">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                   class="mt-3">
+                    
+                  ></a>
+                    <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+             class="col-lg-4">
+               class="blog-menu mt-4"> /
+              <img src="images/blog/3.jpg" class="img-fluid" alt="">
+                <h4>
+              <div
+                    
+                  
+                </h4>
+                <h4><a href="" class="blog-
+                  title">The best front hacking cheatsheets</a></h4>
+                 
+                </p>
+                <p class="mt-2 text-muted">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus.</p>
+                   class="mt-3">
+                    
+                  ></a>
+                    <a href="" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- BLOG END -->
+
+        <!-- CONTACT START -->
+        <!-- <section class="section" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="contact-head text-center">
+                            <h4 class="title-heading text-uppercase">Contact us</h4>
+                            <p class="title-desc text-muted mt-3">Find the perfect business template for any type of business size. Browse be websites created for small businesses, such as online service providers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4 vertical-content">
+                    <div class="col-lg-12">
+                        <div class="row mt-5">
+
+                            <div class="col-lg-4">
+                                <div class="contact-info">
+                                    <div class="mt-3">
+                                        <div class="float-left">
+                                            <i data-feather="mail"></i>
+                                        </div>
+                                        <div class="ml-5">
+                                            <h6 class="text-muted">Email Address</h6>
+                                            <p>Example@abc.com</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <div class="float-left">
+                                            <i data-feather="phone-call"></i>
+                                        </div>
+                                        <div class="ml-5">
+                                            <h6 class="text-muted">Phone number</h6>
+                                            <p>+1-903-929-5705 , +1-631-705-0194</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <div class="float-left">
+                                            <i data-feather="map-pin"></i>
+                                        </div>
+                                        <div class="ml-5">
+                                            <h6 class="text-muted">Office Address</h6>
+                                            <p>3961 Melville Street <br/>
+                                                Bruceton, TN 38317</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="custom-form">
+                                    <div id="message"></div>
+                                    <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your name...">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Your email...">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input name="text" id="sub" type="text" class="form-control" placeholder="Your subject...">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-lg-12">
+                                                <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom" value="Send Message">
+                                                <div id="simple-msg"></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> -->
+        <!-- CONTACT END -->
+
+    <!-- FOOTER START -->
+     <tion class="footer bg-dark">
+       < class="container">
+
+                    <!-- <div class="col-lg-2">
+                        <div class="footer-menu">
+                            <h5 class="mb-4 text-uppercase">About</h5>
+                            <ul class="text-muted list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Job Opening</a></li>
+                                <li><a href="#">Term</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="col-lg-2">
+                        <div class="footer-menu">
+                            <h5 class="mb-4 text-uppercase">Help Center</h5>
+                            <ul class="text-muted list-unstyled">
+                                <li><a href="#">Accounting</a></li>
+                                <li><a href="#">Billing</a></li>
+                                <li><a href="#">General Question</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="col-lg-6">
+                        <div class="footer-menu">
+                            <h5 class="mb-4 text-uppercase">EMAIL</h5>
+                            <p>
+                            <a href="mailto:tbreydo@gmail.com" class="footer-email">tbreydo@gmail.com</a>
+                            </p>
+                            <p>Feel free to reach out with any project ideas or if you
+                                think I can be of help!
+                            </p>
+                        </div>
+                    </div> -->
+
+         <di class="col-lg-12">
+          <div class="footer-menu">
+              <!-- <h5 class="mb-4 text-uppercase">SOCIAL MEDIA</h5> -->
+               <p>Check out my Github, Medium, and Instagram.</p> -->
+                
+              ></a>
+              <a href="https://www.github.com/thomasbreydo/" target
+                ="_blank"><i class="fa fa-github footer-></i></a>
+              ></a>
+              <a href="https://tbreydo.medium.com/" target="_blank"><i class="f
+                a fa-medium footer-icon"></i></a>
+              ></a>
+                    <a href="https://www.instagram.com/thomasbreydo/" target="_blank"><i class="fa fa-instagram footer-icon"></i></a>
+              </div>
+            </div>
+                </div>
+
+       <di class="row">
+           < class="col-lg-12">
+               class="text-center mt-5">
+                <p class="mb-0">Copyright © 2021 Thomas Breydo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- FOOTER END -->
+    
+	<!-- JAVASCRIPTS -->
+   <ript src="js/jquery.min.js"></script>
+    <!-- SCROLL -->
+    <script src="js/scrollspy.min.js"></script>
+    <!-- bootstrap -->
+          <script src="js/bootstrap.bundle.min.js"></script>
+	<!-- easing -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Portfolio -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <!-- scroll -->
+    <script src="js/scrollspy.min.js"></script>
+  <!- Owl Carousel -->
+       <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom -->
+  
+	</body
+>
+</html>
