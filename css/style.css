@@ -175,6 +175,11 @@ p {
 }
 
 .navbar-custom .navbar-nav .nav-link {
+  color: #383e44 !important;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -466,6 +471,7 @@ p {
 /********DEMO 6**********/
 
 .bg-home-half {
+  background-image: linear-gradient(to bottom right, #fff, #fff, #3864f3);
   /* background-image: linear-gradient(to bottom, #fff, #ffffff80),
     url("../images/home/home-bg-half.jpg"); 
     */
