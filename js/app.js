@@ -102,8 +102,19 @@
             });
         },
 
+        Larix.prototype.initCardHover = function () {
+            // Card hover
+            $(".card").hover(
+                function () {
+                    $(this).addClass('shadow-lg').css('cursor', 'pointer');
+                }, function () {
+                    $(this).removeClass('shadow-lg');
+                }
+            );
+        },
+
         Larix.prototype.initContact = function () {
-            //Contact Form
+            // Contact Form
             $('#contact-form').submit(function () {
 
                 var action = $(this).attr('action');
@@ -146,6 +157,7 @@
             this.initPortfolioFilter();
             this.initMagnificPopup();
             this.initContact();
+            this.initCardHover();
         },
         //init
         $.Larix = new Larix, $.Larix.Constructor = Larix

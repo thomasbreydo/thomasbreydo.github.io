@@ -365,12 +365,22 @@ p {
   opacity: 0.6;
 }
 
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
+  transition-duration: 0.5s;
   border-radius: 20px;
 }
 .card-body {
-  margin-top: 80px;
-  padding-bottom: 80px;
+  /* margin-top: auto; */
+  /* padding-bottom: auto; */
 }
 
 /********* DEMO 2 ********/
