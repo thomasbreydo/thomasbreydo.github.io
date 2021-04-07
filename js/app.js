@@ -51,7 +51,7 @@
         Larix.prototype.initScrollspy = function () {
             //Scrollspy
             $(".navbar-nav").scrollspy({
-                offset: 50
+                offset: 500
             });
         },
 
@@ -106,9 +106,9 @@
             // Card hover
             $(".card").hover(
                 function () {
-                    $(this).addClass('shadow-lg').css('cursor', 'pointer');
+                    $(this).addClass('shadow').css('cursor', 'pointer');
                 }, function () {
-                    $(this).removeClass('shadow-lg');
+                    $(this).removeClass('shadow');
                 }
             );
         },
