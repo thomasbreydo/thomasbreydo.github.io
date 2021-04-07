@@ -360,6 +360,14 @@ p {
   opacity: 0.6;
 }
 
+.card {
+  border-radius: 20px;
+}
+.card-body {
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
 /********* DEMO 2 ********/
 
 .home-registration-form {
@@ -458,8 +466,9 @@ p {
 /********DEMO 6**********/
 
 .bg-home-half {
-  background-image: linear-gradient(to bottom, #fff, #ffffff80),
-    url("../images/home/home-bg-half.jpg"); /* TODO better image */
+  /* background-image: linear-gradient(to bottom, #fff, #ffffff80),
+    url("../images/home/home-bg-half.jpg"); 
+    */
   background-size: cover;
   background-position: center center;
   padding: 250px 0px 200px;
