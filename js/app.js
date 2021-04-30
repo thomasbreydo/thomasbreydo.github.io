@@ -5,10 +5,11 @@
 */
 
 
-! function ($) {
+!function ($) {
     "use strict";
 
-    var Larix = function () { };
+    const Larix = function () {
+    };
 
     Larix.prototype.initStickyMenu = function () {
         // Add scroll class
@@ -21,151 +22,153 @@
                 $(".sticky").removeClass("nav-sticky");
             }
         });
-    },
+    }
 
-        Larix.prototype.initSmoothLink = function () {
-            // Smooth scroll
-            $('.navbar-nav a, .smooth-link').on('click', function (event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop:
-                        $($anchor.attr('href')).offset().top /* don't go all the way */ - 60
-                }, 1500, 'easeInOutExpo');
-                event.preventDefault();
+    Larix.prototype.initSmoothLink = function () {
+        // Smooth scroll
+        $('.navbar-nav a, .smooth-link').on('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop:
+                    $($anchor.attr('href')).offset().top /* don't go all the way */ - 60
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
+    }
+
+    Larix.prototype.initTestimonials = function () {
+        //Owl Carousel
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000,
+            stopOnHover: true,
+            navigation: false,
+            paginationSpeed: 1000,
+            goToFirstSpeed: 2000,
+            singleItem: true,
+            autoHeight: true,
+        });
+    }
+
+    Larix.prototype.initScrollspy = function () {
+        //Scrollspy
+        $(".navbar-nav").scrollspy({
+            offset: 300 /* */
+        });
+    }
+
+    Larix.prototype.initPortfolioFilter = function () {
+        // Portfolio filter
+        $(window).on('load', function () {
+            var $container = $('.projects-wrapper');
+            var $filter = $('#filter');
+            // Initialize isotope
+            $container.isotope({
+                filter: '*',
+                layoutMode: 'masonry',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear'
+                }
             });
-        },
 
-        Larix.prototype.initTestimonials = function () {
-            //Owl Carousel
-            $("#owl-demo").owlCarousel({
-                autoPlay: 3000,
-                stopOnHover: true,
-                navigation: false,
-                paginationSpeed: 1000,
-                goToFirstSpeed: 2000,
-                singleItem: true,
-                autoHeight: true,
-            });
-        },
-
-        Larix.prototype.initScrollspy = function () {
-            //Scrollspy
-            $(".navbar-nav").scrollspy({
-                offset: 500
-            });
-        },
-
-        Larix.prototype.initPortfolioFilter = function () {
-            // Portfolio filter
-            $(window).on('load', function () {
-                var $container = $('.projects-wrapper');
-                var $filter = $('#filter');
-                // Initialize isotope 
+            // Filter items when filter link is clicked
+            $filter.find('a').on("click", function () {
+                var selector = $(this).attr('data-filter');
+                $filter.find('a').removeClass('active');
+                $(this).addClass('active');
                 $container.isotope({
-                    filter: '*',
-                    layoutMode: 'masonry',
+                    filter: selector,
                     animationOptions: {
-                        duration: 750,
-                        easing: 'linear'
+                        animationDuration: 750,
+                        easing: 'linear',
+                        queue: false,
                     }
                 });
-
-                // Filter items when filter link is clicked
-                $filter.find('a').on("click", function () {
-                    var selector = $(this).attr('data-filter');
-                    $filter.find('a').removeClass('active');
-                    $(this).addClass('active');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            animationDuration: 750,
-                            easing: 'linear',
-                            queue: false,
-                        }
-                    });
-                    return false;
-                });
+                return false;
             });
-        },
+        });
+    }
 
-        Larix.prototype.initMagnificPopup = function () {
-            // Magnific Popup
-            $('.mfp-image').magnificPopup({
-                type: 'image',
-                closeOnContentClick: true,
-                mainClass: 'mfp-fade',
-                gallery: {
-                    enabled: true,
-                    navigateByImgClick: true,
-                    preload: [0, 1]
-                }
-            });
-        },
+    Larix.prototype.initMagnificPopup = function () {
+        // Magnific Popup
+        $('.mfp-image').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            mainClass: 'mfp-fade',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1]
+            }
+        });
+    }
 
-        Larix.prototype.initCardHover = function () {
-            // Card hover
-            $(".card").hover(
-                function () {
-                    $(this).addClass('shadow').css('cursor', 'pointer');
-                }, function () {
-                    $(this).removeClass('shadow');
-                }
-            );
-        },
+    Larix.prototype.initCardHoverShadow = function () {
+        // Card hover
+        $(".card").hover(
+            function () {
+                $(this).addClass('shadow');
+            }, function () {
+                $(this).removeClass('shadow');
+            }
+        );
+    }
 
-        Larix.prototype.initContact = function () {
-            // Contact Form
-            $('#contact-form').submit(function () {
+    Larix.prototype.initContact = function () {
+        // Contact Form
+        $('#contact-form').submit(function () {
 
-                var action = $(this).attr('action');
+            var action = $(this).attr('action');
 
-                $("#message").slideUp(750, function () {
-                    $('#message').hide();
+            $("#message").slideUp(750, function () {
+                $('#message').hide();
 
-                    $('#submit')
-                        .before('')
-                        .attr('disabled', 'disabled');
+                $('#submit')
+                    .before('')
+                    .attr('disabled', 'disabled');
 
-                    $.post(action, {
+                $.post(action, {
                         name: $('#name').val(),
                         email: $('#email').val(),
                         comments: $('#comments').val(),
                     },
-                        function (data) {
-                            document.getElementById('message').innerHTML = data;
-                            $('#message').slideDown('slow');
-                            $('#cform img.contact-loader').fadeOut('slow', function () {
-                                $(this).remove()
-                            });
-                            $('#submit').removeAttr('disabled');
-                            if (data.match('success') != null) $('#cform').slideUp('slow');
-                        }
-                    );
-
-                });
-
-                return false;
+                    function (data) {
+                        document.getElementById('message').innerHTML = data;
+                        $('#message').slideDown('slow');
+                        $('#cform img.contact-loader').fadeOut('slow', function () {
+                            $(this).remove()
+                        });
+                        $('#submit').removeAttr('disabled');
+                        if (data.match('success') != null) $('#cform').slideUp('slow');
+                    }
+                );
 
             });
-        },
 
-        Larix.prototype.init = function () {
-            this.initStickyMenu();
-            this.initSmoothLink();
-            this.initTestimonials();
-            this.initScrollspy();
-            this.initPortfolioFilter();
-            this.initMagnificPopup();
-            this.initContact();
-            this.initCardHover();
-        },
-        //init
-        $.Larix = new Larix, $.Larix.Constructor = Larix
-}(window.jQuery),
+            return false;
 
-    //initializing
-    function ($) {
-        "use strict";
-        $.Larix.init();
-    }(window.jQuery);
+        });
+    }
+
+
+    Larix.prototype.init = function () {
+        this.initStickyMenu();
+        this.initSmoothLink();
+        this.initTestimonials();
+        this.initScrollspy();
+        this.initPortfolioFilter();
+        this.initMagnificPopup();
+        this.initContact();
+        this.initCardHoverShadow();
+    }
+    //init
+    $.Larix = new Larix
+    $.Larix.Constructor = Larix
+}(window.jQuery)
+
+!function ($) {
+    "use strict";
+    $.Larix.init();
+}
+(window.jQuery);
 

@@ -21,10 +21,10 @@
 *   14 :  Responsive        *
 *****************************/
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #525456;
 }
@@ -49,6 +49,16 @@ a {
 
 p {
   line-height: 1.8;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 /*===============================
@@ -486,7 +496,7 @@ p {
 .bg-home-half {
   background-image: linear-gradient(to bottom right, #fff, #fff, #3864f3);
   /* background-image: linear-gradient(to bottom, #fff, #ffffff80),
-    url("../images/home/home-bg-half.jpg"); 
+    url("../images/home/home-bg-half.jpg");
     */
   background-size: cover;
   background-position: center center;
@@ -1036,12 +1046,14 @@ textarea.form-control {
   }
   .bg-home-half {
     height: auto;
-    /* TODO responsive front image */
   }
   .nav-sticky.navbar-custom .navbar-nav li a {
     color: #fff !important;
   }
-  .nav-sticky .logo {
+  .nav-sticky .logo { /* needed to make sure this takes precedence */
+    color: #fff !important;
+  }
+  .logo {
     color: #fff !important;
   }
   .navbar-custom > .container {
