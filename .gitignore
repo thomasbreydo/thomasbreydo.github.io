@@ -53,3 +53,6 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/code,macos
 cal/
+_site/
+.sass-cache/
+.jekyll-cache/
