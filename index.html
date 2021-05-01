@@ -1,37 +1,42 @@
 ---
 layout: default
-title: A stunning personal blog Jekyll theme
-description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-landscape.jpg
+title: Home
+description: I'm an NYC-based developer, student, and CS enthusiast.
+featured_image: /images/portrait-lg.jpeg
 ---
 
 <section class="blog single">
 
-	<div class="wrap">
+    <div class="wrap">
 
-		{% for post in paginator.posts %}
+        {% for post in paginator.posts %}
 
-		<article class="blog-post">
+        <article class="blog-post">
 
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
+            <div class="blog-post__header">
+                <h2 class="blog-post__title"><a
+                        href="{{ post.url | relative_url }}">{{ post.title
+                    }}</a></h2>
+                <p class="blog-post__subtitle">{{ post.date |
+                    date_to_long_string }}</p>
+            </div>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
-			{% endif %}
+            {% if post.featured_image %}
+            <a class="blog-post__image" href="{{ post.url | relative_url }}"
+               style="background-image: url({{ post.featured_image | relative_url }});"></a>
+            {% endif %}
 
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
-			</div>
+            <div class="blog-post__content">
+                <p>{{ post.excerpt }}</p>
+                <p><a class="button" href="{{ post.url | relative_url }}">Read
+                    More</a>
+            </div>
 
-		</article>
+        </article>
 
-		{% endfor %}
+        {% endfor %}
 
-	</div>
+    </div>
 
 </section>
 
@@ -39,16 +44,22 @@ featured_image: /images/demo/demo-landscape.jpg
 
 <section class="pagination">
 
-	{% if paginator.previous_page %}
-	<div class="pagination__prev">
-		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-	</div>
-	{% endif %}
-	{% if paginator.next_page %}
-	<div class="pagination__next">
-		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
+    {% if paginator.previous_page %}
+    <div class="pagination__prev">
+        <a class="button button--large"
+           href="{{ paginator.previous_page_path | relative_url }}"><i
+                aria-hidden="true"
+                class="fa fa-angle-left"></i> <span>Newer Posts</span></a>
+    </div>
+    {% endif %}
+    {% if paginator.next_page %}
+    <div class="pagination__next">
+        <a class="button button--large"
+           href="{{ paginator.next_page_path | relative_url }}"><span>Older Posts</span>
+            <i
+                    aria-hidden="true" class="fa fa-angle-right"></i></a>
+    </div>
+    {% endif %}
 
 </section>
 

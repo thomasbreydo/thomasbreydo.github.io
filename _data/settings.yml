@@ -1,8 +1,8 @@
 basic_settings:
   site_title: Thomas Breydo
   header_title: Hi, I'm Thomas
-  header_tagline: I'm an NYC-based programmer, developer, and student.
-  favicon_image: /images/favicon.png
+  header_tagline: I'm an NYC-based developer, student, and CS enthusiast.
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image:
@@ -21,13 +21,14 @@ menu_settings:
       url: '/contact'
 
 grid_settings:
+  # the amount of spacing (in pixels) between each item in grid image galleries.
   grid_spacing: 10
 
 contact_settings:
-  form_action: ''
+  form_action: 'https://formspree.io/f/mjvjgobr'
   confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
-  send_button_text: 'Send Message'
+  email_subject: 'Somebody contacted you via your website!'
+  send_button_text: 'Send'
 
 social_settings:
   facebook_url: ''
