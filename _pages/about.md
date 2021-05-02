@@ -16,6 +16,5 @@ and online courses.
 This year, I began to study the theory of computation
 (Turing machines, decidability, P vs. NP, complexity theory, and so on). It's a cool
 blend between math and programming. Check out one of the proofs I wrote
-[here]({{ site.url }}/assets/pdfs/SAT_reduces_to_VERTEX_COVER.pdf/).
-
+[here]({{ site.url }}/assets/pdfs/SAT_reduces_to_VERTEX_COVER.pdf).
 
