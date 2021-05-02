@@ -269,6 +269,7 @@ DEPENDENCIES
   github-pages
   jekyll-paginate
   jekyll-sitemap
+  katex (~> 0.8.0)
   kramdown-math-katex (~> 1.0)
 
 BUNDLED WITH
