@@ -106,8 +106,6 @@ to separate the data. Recall that a `weights` of `{-0.3, 0.02}` and a `bias` of
 `-0.2` means the perceptron classifies a given point $$(a, b)$$ based on
 $$-0.3a + 0.02b - 0.2 > 0$$.
 
-$$\int_0^1{x^2\mathrm dx}$$
-
 We can generalize this to `x` and `y`, giving us the inequality for a line.
 All points above the line will be classified as **blue**, and those below it
 will be classified as **red**. As you can see, the parameters of the trained
@@ -124,7 +122,3 @@ Predicted 0 for Sample({1.00, 2.00}, is_type_A: 0) ✓
 Predicted 0 for Sample({0.75, 0.75}, is_type_A: 0) ✓
 Predicted 0 for Sample({0.25, 1.75}, is_type_A: 0) ✓
 ```
-
-$TEst$
-
-$$\int_0^1{x^2\mathrm dx}$$
