@@ -2,8 +2,8 @@
 layout: default
 title: Projects
 subtitle: What I've been working on lately.
-description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-landscape.jpg
+description: What I've been working on lately.
+featured_image: /assets/images/fullsize/blend.jpg
 ---
 
 <section class="intro">
@@ -21,7 +21,9 @@ featured_image: /images/demo/demo-landscape.jpg
 
 	<div class="wrap">
 
-		{% for project in site.projects reversed %}
+		{% comment %}THIS USED TO BE site.projects reversed !!!{% endcomment %}
+		{% for project in site.posts %}
+			{% if project.show_project %}
 
 		<div class="portfolio-item">
 
@@ -40,6 +42,7 @@ featured_image: /images/demo/demo-landscape.jpg
 
 		</div>
 
+			{% endif %}
 		{% endfor %}
 
 	</div>

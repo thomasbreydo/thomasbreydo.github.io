@@ -35,7 +35,7 @@ The main things you might need to change here are:
 
 `baseurl:` – add a base URL here if you will be publishing the site inside a folder, e.g. https://your-domain.com/project/ – or if you're hosting it as a 'project page' on GitHub Pages. Example: `baseurl: /project`
 
-When using baseurl, you should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/images/image.jpg` but images inside the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image.jpg`
+When using baseurl, you should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/assets/images/fullsize/image.jpg` but images inside the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/assets/images/fullsize/image.jpg`
 
 `paginate: 6` – change this to set the number of blog posts on each page
 
@@ -115,7 +115,7 @@ Below these options, you'll see options for each typographical element used in t
 
 ### Images
 
-Inside the `/images/` folder you'll find a few images included with the theme.
+Inside the `/assets/images/fullsize/` folder you'll find a few images included with the theme.
 
 The images in the `/demo/` subfolder are used in the demo project, post and page – you can delete those if you don't need them.
 

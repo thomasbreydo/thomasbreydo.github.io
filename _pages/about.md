@@ -1,35 +1,16 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+title: About Me
+subtitle: If I'm not coding, I'm probably learning something new or spending time with family and friends.
+description: I'm an NYC-based developer, student, and CS enthusiast. I'm a tech lover who's also super into math and science. If I'm not coding, I'm probably learning something new or spending time with family and friends.
+featured_image: /assets/images/fullsize/blue.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+{% comment %}![](/assets/images/fullsize/thomas2.jpeg){% endcomment %}
 
-## Features
+I'm a tech lover who's also super into math and science. I figured out my love for programming when I was nine years
+old, coding in Python for fun.
 
-Journal is packed with powerful features to showcase your work:
+Since then, I've
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
-
-## Get Index
-
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+* taught myself coding languages like C++, Java, and Go
+* begun to study CS theory in school

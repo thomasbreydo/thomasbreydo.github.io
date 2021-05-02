@@ -1,10 +1,10 @@
 ---
 title: Contact
-subtitle: Journal comes with a built-in contact form, that's free and easy to set up.
-description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+subtitle: Reach out with projects and opportunities, or to request my résumé.
+description: Reach out with projects and opportunities or to request my résumé.
+featured_image: /assets/images/fullsize/pink.jpg
 ---
 
-{% include contact-form.html %}
+Use the form below (or just email me at <tbreydo@gmail.com>)
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
+{% include contact-form.html %}
