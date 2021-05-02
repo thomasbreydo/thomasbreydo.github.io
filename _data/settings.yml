@@ -16,9 +16,9 @@ menu_settings:
     - title: 'Projects'
       url: '/projects/'
     - title: 'About'
-      url: '/about/'
+      url: '/about'
     - title: 'Contact'
-      url: '/contact/'
+      url: '/contact'
 
 grid_settings:
   # the amount of spacing (in pixels) between each item in grid image galleries.
