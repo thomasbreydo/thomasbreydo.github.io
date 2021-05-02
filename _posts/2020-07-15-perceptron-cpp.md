@@ -102,8 +102,8 @@ Before training: Perceptron(weights: {1.00, 1.00}, bias: 0.00, lr: 0.10)
 ```
 Using the tuned parameters we can plot the line that our perceptron has created
 to separate the data. Recall that a `weights` of `{-0.3, 0.02}` and a `bias` of
-`-0.2` means the perceptron classifies a given point `(a, b)` based on
-`-0.3*a + 0.02*b - 0.2 > 0`.
+`-0.2` means the perceptron classifies a given point $$(a, b)$$ based on
+$$-0.3a + 0.02b - 0.2 > 0$$.
 
 We can generalize this to `x` and `y`, giving us the inequality for a line.
 All points above the line will be classified as **blue**, and those below it
