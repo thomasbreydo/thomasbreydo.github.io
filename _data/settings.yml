@@ -168,5 +168,8 @@ advanced_settings:
       gtag('config', 'G-6FT58MHFKF');
     </script>
   custom_styles: ""
-  header_js: ""
+  header_js: >-
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
   footer_js: ""

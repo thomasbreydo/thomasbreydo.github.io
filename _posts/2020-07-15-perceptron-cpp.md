@@ -6,6 +6,7 @@ excerpt: 'I created a perceptron from scratch in C++. The perceptron learns usin
 show_project: true
 date: 2020-07-15 00:00:00
 featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'
+use_math: true
 ---
 
 {% comment %}![](/assets/images/fullsize/posts/perceptron-cpp-feat.jpg){% endcomment %}
