@@ -5,10 +5,10 @@ description: 'I created a perceptron from scratch in C++. The perceptron learns 
 excerpt: 'I created a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
 show_project: true
 date: 2020-07-15 00:00:00
-featured_image: '/assets/images/fullsize/purple-blue.jpg'
+featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'
 ---
 
-{% comment %}![](/assets/images/fullsize/purple-blue.jpg){% endcomment %}
+{% comment %}![](/assets/images/fullsize/posts/perceptron-cpp-feat.jpg){% endcomment %}
 
 <a href="https://github.com/thomasbreydo/perceptron-cpp/" class="button button--medium">View project on GitHub</a>
 
