@@ -6,8 +6,10 @@ excerpt: 'I created a perceptron from scratch in C++. The perceptron learns usin
 show_project: true
 date: 2020-07-15 00:00:00
 featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'
-use_math: true
+load_katex: true
 ---
+
+{% katexmm %}
 
 {% comment %}![](/assets/images/fullsize/posts/perceptron-cpp-feat.jpg){% endcomment %}
 
@@ -103,8 +105,10 @@ Before training: Perceptron(weights: {1.00, 1.00}, bias: 0.00, lr: 0.10)
 ```
 Using the tuned parameters we can plot the line that our perceptron has created
 to separate the data. Recall that a `weights` of `{-0.3, 0.02}` and a `bias` of
-`-0.2` means the perceptron classifies a given point $$(a, b)$$ based on
-$$-0.3a + 0.02b - 0.2 > 0$$.
+`-0.2` means the perceptron classifies a given point $(a, b)$ based on
+$-0.3a + 0.02b - 0.2 > 0$.
+
+$$\int_0^1{x^2\mathrm dx}$$
 
 We can generalize this to `x` and `y`, giving us the inequality for a line.
 All points above the line will be classified as **blue**, and those below it
@@ -123,3 +127,10 @@ Predicted 0 for Sample({0.75, 0.75}, is_type_A: 0) ✓
 Predicted 0 for Sample({0.25, 1.75}, is_type_A: 0) ✓
 ```
 
+{% endkatexmm %}
+
+$TEst$
+
+{% katex display %}
+\int_0^1{x^2\mathrm dx}
+{% endkatex %}
