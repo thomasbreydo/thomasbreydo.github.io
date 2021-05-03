@@ -1,7 +1,3 @@
-### Using math
-
-Pages that use math should set the variable `load_katex` to `true`.
-
 ### Setting up KaTeX
 
 ```

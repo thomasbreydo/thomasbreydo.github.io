@@ -23,7 +23,7 @@ featured_image: /assets/images/fullsize/projects-feat.jpg
 
 		{% comment %}THIS USED TO BE site.projects reversed !!!{% endcomment %}
 		{% for project in site.posts %}
-			{% if project.show_project %}
+			{% if project.is_project %}
 
 		<div class="portfolio-item">
 

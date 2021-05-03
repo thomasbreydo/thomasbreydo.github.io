@@ -1,14 +1,12 @@
 ---
-title: 'A Perceptron in C++'
-subtitle: 'The perceptron learns using the perceptron learning rule.'
-description: 'I created a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
-excerpt: 'I created a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
-is_project: true
+title:
+subtitle:
+description:
+excerpt:
+is_project: false
 date: 2020-07-15 12:00:00
-featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'
+featured_image:
 ---
-
-{% comment %}![](/assets/images/fullsize/posts/perceptron-cpp-feat.jpg){% endcomment %}
 
 <a href="https://github.com/thomasbreydo/perceptron-cpp/" class="button button--medium">View project on GitHub</a>
 
