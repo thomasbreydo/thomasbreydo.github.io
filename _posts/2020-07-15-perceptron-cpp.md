@@ -1,8 +1,8 @@
 ---
-title: 'A Perceptron in C++'
+title: ' I coded a perceptron from scratch in C++'
 subtitle: 'The perceptron learns using the perceptron learning rule.'
-description: 'I created a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
-excerpt: 'I created a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
+description: 'The perceptron learns using the perceptron learning rule.'
+excerpt: 'I coded a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
 is_project: true
 date: 2020-07-15 12:00:00
 featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'
