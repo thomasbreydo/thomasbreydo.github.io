@@ -8,43 +8,44 @@ featured_image: /assets/images/fullsize/projects-feat.jpg
 
 <section class="intro">
 
-	<div class="wrap">
+    <div class="wrap">
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle }}</p>
 
-	</div>
+    </div>
 
 </section>
 
 <section class="portfolio">
 
-	<div class="wrap">
+    <div class="wrap">
 
-		{% comment %}THIS USED TO BE site.projects reversed !!!{% endcomment %}
-		{% for project in site.posts %}
-			{% if project.is_project %}
+        {% comment %}THIS USED TO BE site.projects reversed !!!{% endcomment %}
+        {% for project in site.posts %}
+            {% if project.is_project %}
 
-		<div class="portfolio-item">
+                <div class="portfolio-item">
 
-			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+                    <a class="portfolio-item__link" href="{{ project.url | relative_url }}">
 
-				<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+                        <div class="portfolio-item__image"
+                             style="background-image: url({{ project.featured_image | relative_url }});"></div>
 
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div>
+                        <div class="portfolio-item__content">
+                            <div class="portfolio-item__info">
+                                <h2 class="portfolio-item__title">{{ project.title }}</h2>
+                                <p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+                            </div>
+                        </div>
 
-			</a>
+                    </a>
 
-		</div>
+                </div>
 
-			{% endif %}
-		{% endfor %}
+            {% endif %}
+        {% endfor %}
 
-	</div>
+    </div>
 
 </section>
