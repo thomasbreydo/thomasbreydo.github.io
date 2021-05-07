@@ -46,17 +46,17 @@
   position: relative;
   display: block;
 
-  //@include mq(tabletl) {
+  @include mq(tabletp) {
 
-  &:hover {
+    &:hover {
 
-    .portfolio-item__content {
-      opacity: 1;
-      visibility: visible;
+      .portfolio-item__content {
+        opacity: 1;
+        visibility: visible;
+      }
     }
-  }
 
-  //}
+  }
 }
 
 .portfolio-item__image {
