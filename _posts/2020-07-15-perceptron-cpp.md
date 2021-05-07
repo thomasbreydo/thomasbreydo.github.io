@@ -1,5 +1,5 @@
 ---
-title: ' I coded a perceptron from scratch in C++'
+title: 'I coded a perceptron from scratch in C++'
 subtitle: 'The perceptron learns using the perceptron learning rule.'
 description: 'The perceptron learns using the perceptron learning rule.'
 excerpt: 'I coded a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
