@@ -1,8 +1,10 @@
 ---
 title: 'I coded a perceptron from scratch in C++'
 subtitle: 'The perceptron learns using the perceptron learning rule.'
-description: 'The perceptron learns using the perceptron learning rule.'
-excerpt: 'I coded a perceptron from scratch in C++. The perceptron learns using the perceptron learning rule.'
+description: 'What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector
+input and outputs a 0 or a 1.'
+excerpt: 'What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector
+input and outputs a 0 or a 1.'
 is_project: true
 date: 2020-07-15 12:00:00
 featured_image: '/assets/images/fullsize/posts/perceptron-cpp-feat.jpg'

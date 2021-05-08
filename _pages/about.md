@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle:
-description: Hi, I'm Thomas Breydo. I'm an NYC-based developer, student, and CS enthusiast. I'm a tech lover who's also super into math and science. If I'm not coding, I'm probably learning something new or spending time with family and friends.
+description: Hi, I'm Thomas Breydo, NYC-based developer, student, and CS enthusiast. I'm a tech lover who's also super into math and science. If I'm not coding, I'm probably learning something new or spending time with family and friends.
 featured_image: /assets/images/fullsize/about-feat.jpg
 ---
 

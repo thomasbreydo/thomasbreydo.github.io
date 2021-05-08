@@ -10,7 +10,7 @@ function getRE() {
     let lowerPattern = pattern.value.toLowerCase()
     let impossibleLetters = ''
     let wildRegexString
-    matches = lowerPattern.match(/[^?]/g)
+    let matches = lowerPattern.match(/[^?]/g)
     if (matches) {
         impossibleLetters += matches.join('')
     }
@@ -28,7 +28,7 @@ function solve() {
     let matchedWords = []
     let re = getRE()
     for (let word in words) {
-        mo = word.match(re)
+        let mo = word.match(re)
         if (mo) {
             matchedWords.push(mo[0])
             for (let i = 1; i < mo.length; i++) {  // start at 1 bc 0 is full match
@@ -44,7 +44,7 @@ function solve() {
     if (matchedWords.length > 20) {
         wordRecommendations.innerText = `${matchedWords.length} words possible.`
     } else {
-        wordRecommendations.innerText = `Possible words: ${matchedWords.join('\n').toUpperCase()}`
+        wordRecommendations.innerText = `Possible words:\n${matchedWords.join('\n').toUpperCase()}`
     }
-    letterRankings.innerText = `Letter rankings: ${arr.join('\n').toUpperCase()}`
+    letterRankings.innerText = `Letter rankings:\n${arr.join('\n').toUpperCase()}`
 }
