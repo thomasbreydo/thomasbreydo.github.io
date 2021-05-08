@@ -68,7 +68,7 @@ How many dimensions? 2
 ```
 
 The program then asks for the locations of our points. Let's use these as our samples:
-![](/assets/images/fullsize/perceptron-cpp/untrained.png)
+![](/assets/images/fullsize/posts/perceptron-cpp/untrained.png)
 *Note, `x_0` corresponds to the x-axis, `x_1` corresponds to the y-axis.*
 
 The program also needs to know if the sample is **blue** or **red**. Let's set
@@ -108,7 +108,7 @@ All points above the line will be classified as **blue**, and those below it
 will be classified as **red**. As you can see, the parameters of the trained
 perceptron have created a very good separating line for the data:
 
-![trained](/assets/images/fullsize/perceptron-cpp/trained.png)
+![trained](/assets/images/fullsize/posts/perceptron-cpp/trained.png)
 
 Finally, the program shows how much of the training data is now successfully classified by the perceptron.
 ```

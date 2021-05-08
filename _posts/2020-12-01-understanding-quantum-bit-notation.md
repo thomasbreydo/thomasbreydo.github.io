@@ -4,7 +4,7 @@ description: This article breaks down how we mathematically express quantum bits
 excerpt: 'This article breaks down how we mathematically express quantum bits and explains why each notation works. (Cover photo by Mark Garlick on Science Photo Library.)'
 is_project: false
 date: 2020-12-01 12:00:00
-featured_image: '/assets/images/fullsize/posts/understanding-quantum-bit-notation.jpg'
+featured_image: '/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg'
 ---
 
 _(Cover photo by Mark Garlick on Science Photo Library.)_
