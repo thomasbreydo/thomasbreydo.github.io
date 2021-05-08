@@ -39,6 +39,8 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   math_engine: katex
+  math_engine_opts:
+    throw_on_error: true
 
 lsi: false
 safe: true
