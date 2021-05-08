@@ -1,6 +1,7 @@
 ---
 title: 'I coded a perceptron from scratch in C++'
-subtitle: 'The perceptron learns using the perceptron learning rule.'
+subtitle: 'What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector
+input and outputs a 0 or a 1.'
 description: 'What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector
 input and outputs a 0 or a 1.'
 excerpt: 'What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector
