@@ -16,12 +16,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="I coded a perceptron from scratch in C++ – Thomas Breydo">
 	<meta name="twitter:description" content="What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector input and outputs a 0 or a 1.">
-	<meta name="twitter:image:src" content="https://www.thomasbreydo.com/assets/images/fullsize/posts/perceptron-cpp-feat.jpg">
+	<meta name="twitter:image:src" content="http://localhost:4000/assets/images/fullsize/posts/perceptron-cpp/feat.jpg">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="I coded a perceptron from scratch in C++ – Thomas Breydo" />
 	<meta property="og:description" content="What is a perceptron? In very simple terms, a perceptron is a binary classifier that takes a vector input and outputs a 0 or a 1." />
-	<meta property="og:image" content="https://www.thomasbreydo.com/assets/images/fullsize/posts/perceptron-cpp-feat.jpg" />
+	<meta property="og:image" content="http://localhost:4000/assets/images/fullsize/posts/perceptron-cpp/feat.jpg" />
 
 	
 	<!-- Font Embed Code -->
@@ -68,13 +68,13 @@
 </head>
 
 
-<body class="loading ajax-loading" data-site-url="https://www.thomasbreydo.com" data-page-url="/blog/perceptron-cpp">
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blog/perceptron-cpp">
 
 
 	<header class="header">
 
     <div class="header-image header-image--on"
-         style="background-image: url(/assets/images/fullsize/posts/perceptron-cpp-feat.jpg);"
+         style="background-image: url(/assets/images/fullsize/posts/perceptron-cpp/feat.jpg);"
          title="I coded a perceptron from scratch in C++ – Thomas Breydo"></div>
     <div class="header-image"></div>
 
@@ -212,7 +212,7 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="I coded a perceptron from scratch in C++ – Thomas Breydo" data-image="/assets/images/fullsize/posts/perceptron-cpp-feat.jpg">
+		<div class="page__content" data-page-title="I coded a perceptron from scratch in C++ – Thomas Breydo" data-image="/assets/images/fullsize/posts/perceptron-cpp/feat.jpg">
 
 			<section class="intro">
 
@@ -229,8 +229,7 @@
 
 	<div class="wrap">
 
-		
-<p><a href="https://github.com/thomasbreydo/perceptron-cpp/" class="button button--medium">View project on GitHub</a></p>
+		<p><a href="https://github.com/thomasbreydo/perceptron-cpp/" class="button button--medium">View project on GitHub</a></p>
 
 <h3 id="what-is-a-perceptron">What is a perceptron?</h3>
 
@@ -298,7 +297,7 @@ How many dimensions? 2
 </code></pre></div></div>
 
 <p>The program then asks for the locations of our points. Let’s use these as our samples:
-<img src="/assets/images/fullsize/perceptron-cpp/untrained.png" alt="" />
+<img src="/assets/images/fullsize/posts/perceptron-cpp/untrained.png" alt="" />
 <em>Note, <code class="language-plaintext highlighter-rouge">x_0</code> corresponds to the x-axis, <code class="language-plaintext highlighter-rouge">x_1</code> corresponds to the y-axis.</em></p>
 
 <p>The program also needs to know if the sample is <strong>blue</strong> or <strong>red</strong>. Let’s set
@@ -335,7 +334,7 @@ All points above the line will be classified as <strong>blue</strong>, and those
 will be classified as <strong>red</strong>. As you can see, the parameters of the trained
 perceptron have created a very good separating line for the data:</p>
 
-<p><img src="/assets/images/fullsize/perceptron-cpp/trained.png" alt="trained" /></p>
+<p><img src="/assets/images/fullsize/posts/perceptron-cpp/trained.png" alt="trained" /></p>
 
 <p>Finally, the program shows how much of the training data is now successfully classified by the perceptron.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Predicted 1 for Sample({-2.00, 1.75}, is_type_A: 1) ✓
