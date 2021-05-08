@@ -4,7 +4,7 @@ description: 'A bit of Python code can be written so well that your boss and cow
 excerpt: 'A bit of Python code can be written so well that your boss and coworkers will marvel at its beauty.'
 is_project: false
 date: 2020-10-04 12:00:00
-featured_image: '/assets/images/fullsize/posts/making-python-code-beautiful-feat.jpg'
+featured_image: '/assets/images/fullsize/posts/making-python-code-beautiful/feat.jpg'
 ---
 
 A bit of Python code can be written so well that your boss and coworkers will marvel at its beauty. Keep reading to discover easy changes that will improve your code’s speed and style!
