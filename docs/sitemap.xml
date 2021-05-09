@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.thomasbreydo.com/about</loc>
-<lastmod>2021-05-08T16:59:21-04:00</lastmod>
+<lastmod>2021-05-08T23:58:27-04:00</lastmod>
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/contact</loc>
-<lastmod>2021-05-08T16:59:21-04:00</lastmod>
+<lastmod>2021-05-08T23:58:27-04:00</lastmod>
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/blog/perceptron-cpp</loc>
@@ -30,7 +30,7 @@
 <loc>https://www.thomasbreydo.com/hangman-solver/</loc>
 </url>
 <url>
-<loc>https://www.thomasbreydo.com/assets/pdfs/SAT_reduces_to_VERTEX_COVER.pdf</loc>
-<lastmod>2021-05-08T16:27:42-04:00</lastmod>
+<loc>https://www.thomasbreydo.com/assets/pdfs/Proof%20that%20K-SAT%20reduces%20to%20VERTEX-COVER.pdf</loc>
+<lastmod>2021-05-08T23:57:44-04:00</lastmod>
 </url>
 </urlset>
