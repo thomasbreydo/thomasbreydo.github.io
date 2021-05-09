@@ -70,7 +70,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
+  font_embed: >-
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600"></noscript>
   title_font: '"Merriweather", sans-serif'
   body_font: '"Muli", sans-serif'
   regular_weight: 400
