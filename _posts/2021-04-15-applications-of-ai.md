@@ -3,7 +3,7 @@ title: Applications of A.I.
 description: In this brief article, I will go over a few problems that artificial intelligence is helping us solve (in no particular order).
 excerpt: In this brief article, I will go over a few problems that artificial intelligence is helping us solve (in no particular order).
 is_project: false
-date: 2020-12-01 12:00:00
+date: 2021-04-15 12:00:00
 featured_image: '/assets/images/fullsize/posts/applications-of-ai/feat.jpg'
 ---
 
