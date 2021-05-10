@@ -11,7 +11,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Home'
+    - title: 'Latest'
       url: '/'
     - title: 'Projects'
       url: '/projects/'
