@@ -7,7 +7,7 @@ date: 2020-12-01 12:00:00
 featured_image: '/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg'
 ---
 
-_(Cover photo by Mark Garlick on Science Photo Library.)_
+<small>(Cover photo by Mark Garlick on Science Photo Library.)</small>
 
 Quantum computers are going to accelerate drug discovery, change the way we encrypt our information, and [much more](https://hbr.org/2020/09/are-you-ready-for-the-quantum-computing-revolution). If you haven't heard of quantum computing yet, here's a [video](https://youtu.be/JhHMJCUmq28) that provides a nice introduction.
 
