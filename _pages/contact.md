@@ -5,6 +5,6 @@ description: Hi, I'm Thomas Breydo. Reach out with projects and opportunities, o
 featured_image: /assets/images/fullsize/contact-feat.jpg
 ---
 
-Use the form below (or just email me at <tbreydo@gmail.com>)
+Use the form below (or just email me at <t@breydo.com>)
 
 {% include contact-form.html %}
