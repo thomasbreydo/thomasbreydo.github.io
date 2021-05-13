@@ -2,7 +2,7 @@ basic_settings:
   site_title: Thomas Breydo
   header_title: Hi, I'm Thomas
   header_tagline: NYC-based developer, student, and CS enthusiast.
-  favicon_image: /assets/images/fullsize/favicon.ico
+  favicon_image: /favicon.ico
 
 header_settings:
   logo_image:
