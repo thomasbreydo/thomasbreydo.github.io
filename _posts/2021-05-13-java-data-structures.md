@@ -1,9 +1,9 @@
 ---
-title: 'I reimplemented data structures in Java'
+title: 'Reimplementing data structures in Java'
 description: 'Yes, these structures exist as built-in Java objects. The purpose of this
-project is to practice by implementing them.'
+project was to practice by implementing them.'
 excerpt: 'Yes, these structures exist as built-in Java objects. The purpose of this
-project is to practice by implementing them.'
+project was to practice by implementing them.'
 is_project: true
 date: 2021-05-13 12:00:00
 featured_image: '/assets/images/fullsize/posts/java-data-structures/feat.jpg'
