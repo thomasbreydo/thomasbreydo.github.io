@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.thomasbreydo.com/about</loc>
-<lastmod>2021-05-22T18:41:03-04:00</lastmod>
+<lastmod>2021-05-26T10:35:18-04:00</lastmod>
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/contact</loc>
-<lastmod>2021-05-22T18:41:03-04:00</lastmod>
+<lastmod>2021-05-26T10:35:18-04:00</lastmod>
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/blog/perceptron-cpp</loc>
@@ -41,6 +41,9 @@
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/</loc>
+</url>
+<url>
+<loc>https://www.thomasbreydo.com/hangman-solver/</loc>
 </url>
 <url>
 <loc>https://www.thomasbreydo.com/blog/page2/</loc>
