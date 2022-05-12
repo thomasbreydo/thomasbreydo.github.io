@@ -27,6 +27,9 @@ $accent-color: {{ site.data.settings.color_settings.accent_color }};
 $overlay-background-color: {{ site.data.settings.color_settings.overlay_background_color }};
 $overlay-text-color: {{ site.data.settings.color_settings.overlay_text_color }};
 
+$mobile-overlay-background-color: {{ site.data.settings.color_settings.mobile_overlay_background_color }};
+$mobile-overlay-text-color: {{ site.data.settings.color_settings.mobile_overlay_text_color }};
+
 $error-color: {{ site.data.settings.color_settings.error_color }};
 
 

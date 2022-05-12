@@ -41,13 +41,15 @@
 	background-size: cover;
 	background-position: 50% 20%;
 	background-repeat: no-repeat;
-	opacity: 0;
 	@include transition(opacity 0.4s ease-in-out);
 
 	@include mq(tabletl) {
 		position: fixed;
 		right: auto;
 		width: 30%;
+	}
+	@include mq(tabletl, false) {
+		opacity: 0 !important;
 	}
 
 	@include mq(desktop) {
@@ -65,7 +67,9 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: rgba($overlay-background-color, $overlay-opacity);
+	@include mq(tabletl, false) {
+		background: $mobile-overlay-background-color;
+	}
 
 	@include mq(tabletl) {
 		background: -moz-linear-gradient(top, rgba($overlay-background-color, 0) 0%, rgba($overlay-background-color, 0.01) 1%, rgba($overlay-background-color, $overlay-opacity) 70%, rgba($overlay-background-color, $overlay-opacity) 100%);
