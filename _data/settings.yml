@@ -67,7 +67,7 @@ color_settings:
   border_color: '#dddddd'
   overlay_background_color: '#161B21'
   overlay_text_color: '#ffffff'
-  mobile_overlay_background_color: '#00316e'
+  mobile_overlay_background_color: '#1F2639'
   mobile_overlay_text_color: '#ffffff'
   error_color: '#D64541'
 
