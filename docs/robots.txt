@@ -1,10 +1,1 @@
-User-agent: *
-Allow: /about
-Allow: /bomb
-Allow: /contact
-Allow: /gh
-Allow: /in
-Allow: /rosamenu
-Disallow: /xam
-
 Sitemap: https://www.thomasbreydo.com/sitemap.xml
