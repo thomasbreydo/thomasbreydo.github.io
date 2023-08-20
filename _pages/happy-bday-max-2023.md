@@ -1,8 +1,8 @@
 ---
 title: Happy birthday!!
-description: there's nothing suspicious anywhere on this site i promise
 featured_image: /assets/images/fullsize/hugo.jpeg
 ---
 
+there's nothing suspicious anywhere on this site i promise
 
-<a href="thomasbreydo.pythonanywhere.com" style="color:white;">shhh</a>
+<a href="https://thomasbreydo.pythonanywhere.com" style="color:white;">shhh</a>
