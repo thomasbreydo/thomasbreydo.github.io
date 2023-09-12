@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Thomas Breydo
   header_title: Hi, I'm Thomas
-  header_tagline: Software developer and CS student
+  header_tagline: Software engineer and CS student at Stanford
   favicon_image: /favicon.ico
 
 header_settings:
