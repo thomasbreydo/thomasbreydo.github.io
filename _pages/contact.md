@@ -1,7 +1,7 @@
 ---
 title: Contact
-subtitle: Reach out with projects and opportunities, or to request my résumé.
-description: Hi, I'm Thomas Breydo. Reach out with projects and opportunities, or to request my résumé.
+subtitle: Reach out with projects and opportunities, or to request my resume.
+description: Hi, I'm Thomas Breydo. Reach out with projects and opportunities, or to request my resume.
 featured_image: /assets/images/fullsize/home-feat.jpg
 ---
 
