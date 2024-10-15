@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2024-07-15T20:41:27-07:00</lastmod>
+<lastmod>2024-10-15T01:06:49-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact</loc>
-<lastmod>2024-07-15T20:41:27-07:00</lastmod>
+<lastmod>2024-10-15T01:06:49-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/happy-bday-max-2023</loc>
-<lastmod>2024-07-15T20:41:27-07:00</lastmod>
+<lastmod>2024-10-15T01:06:49-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/movie-recommender</loc>
@@ -43,9 +43,6 @@
 <url>
 <loc>http://localhost:4000/blog/java-data-structures</loc>
 <lastmod>2021-05-13T05:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/projects/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
