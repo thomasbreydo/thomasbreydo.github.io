@@ -1,6 +1,6 @@
 ---
 title: Hello Eugene...
-featured_image: /assets/images/fullsize/hugo.jpeg
+featured_image:
 ---
 
 <style>
