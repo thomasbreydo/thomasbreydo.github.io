@@ -1,6 +1,11 @@
 site: Thomas Breydo
 url: https://www.thomasbreydo.com
 destination: ./docs
+exclude:
+  - AGENTS.md
+  - SETTLE_IN_BACKLOG.md
+  - Gemfile
+  - Gemfile.lock
 
 collections:
   pages:
