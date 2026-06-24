@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Breydo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+
+    /* ── Single column ── */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+
+    /* ── Header: photo + name side by side ── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 56px;
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+
+    header .subtitle {
+      color: #555;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    header .header-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    header .header-links a {
+      color: #555;
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    header .header-links a:hover { color: #111; }
+
+    /* ── Section ── */
+    section {
+      margin-bottom: 44px;
+    }
+
+    section h2 {
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      border-bottom: 1px solid #e8e8e8;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* ── Section rows ── */
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .item-left { flex: 1; }
+
+    .item-title {
+      font-weight: 500;
+      margin-bottom: 1px;
+    }
+
+    .item-sub {
+      color: #555;
+      font-size: 13px;
+    }
+
+    .item-year {
+      color: #aaa;
+      font-size: 12px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* ── Prose section ── */
+    .prose {
+      color: #222;
+    }
+
+    /* ── Tag list ── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      font-size: 12px;
+      color: #555;
+      background: #f4f4f4;
+      padding: 3px 8px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <img src="headshot.jpg" alt="Thomas Breydo">
+      <div>
+        <h1>Thomas Breydo</h1>
+        <p class="subtitle">Computer Science @ Stanford · Class of 2027</p>
+        <div class="header-links">
+          <a href="mailto:tbreydo@gmail.com">tbreydo@gmail.com</a>
+          <a href="https://github.com/thomasbreydo">github</a>
+          <a href="https://linkedin.com/in/thomas-nyc">linkedin</a>
+          <a href="Thomas_Breydo_resume.pdf">resume ↗</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p class="prose">
+        I study CS at Stanford (GPA 4.21) with a focus on systems, theory, and ML —
+        compilers, parallel computing, cryptography, complexity. I like building things
+        that are fast and correct. Outside of CS: musical theater, guitar, Russian, Spanish.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="item">
+        <div class="item-left">
+          <div class="item-title">Jane Street</div>
+          <div class="item-sub">Software Engineer Intern</div>
+        </div>
+        <div class="item-year">2026</div>
+      </div>
+
+      <div class="item">
+        <div class="item-left">
+          <div class="item-title">Xantium Group — Tudor Investment Corp.</div>
+          <div class="item-sub">Quant Developer Intern · portfolio financing optimization</div>
+        </div>
+        <div class="item-year">2025</div>
+      </div>
+
+      <div class="item">
+        <div class="item-left">
+          <div class="item-title">Hazy Research — Stanford AI Lab</div>
+          <div class="item-sub">Undergraduate Researcher · LLM-to-LLM communication theory</div>
+        </div>
+        <div class="item-year">2025</div>
+      </div>
+
+      <div class="item">
+        <div class="item-left">
+          <div class="item-title">Stanford CS Theory Group</div>
+          <div class="item-sub">Research Intern · advised by Rubinstein &amp; Charikar</div>
+        </div>
+        <div class="item-year">2024</div>
+      </div>
+
+      <div class="item">
+        <div class="item-left">
+          <div class="item-title">Gordian Software — YC W19</div>
+          <div class="item-sub">Software Engineer Intern</div>
+        </div>
+        <div class="item-year">2021–22</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Recognition</h2>
+      <p class="prose">
+        Human Capital Fellow ($50k) · USACO Gold · AIME qualifier (3×) · PicoCTF #18 nationally
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">C/C++</span>
+        <span class="tag">Rust</span>
+        <span class="tag">CUDA</span>
+        <span class="tag">compilers</span>
+        <span class="tag">parallel computing</span>
+        <span class="tag">ML / AI</span>
+        <span class="tag">cryptography</span>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

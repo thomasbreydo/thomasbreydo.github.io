@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas Breydo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 15px;
+      line-height: 1.75;
+      color: #111;
+      background: #fff;
+    }
+
+    /* ── Single centered column ── */
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 96px 24px 96px;
+    }
+
+    /* ── Photo floated right ── */
+    .photo {
+      float: right;
+      width: 96px;
+      height: 96px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 4px 0 24px 32px;
+      shape-outside: circle();
+    }
+
+    /* ── Name ── */
+    h1 {
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 28px;
+    }
+
+    /* ── Prose ── */
+    p {
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    p a {
+      color: #111;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ── Footer links ── */
+    .links {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e8e8e8;
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: #555;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .links a:hover { color: #111; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="headshot.jpg" alt="Thomas Breydo" class="photo">
+
+    <h1>Thomas Breydo</h1>
+
+    <p>
+      Hi! I’m a computer science student at Stanford, where I study systems, theory,
+      and machine learning. I like building things that are fast and correct - some of
+      my favorite classes include compilers, OS, parallel computing, cryptography,
+      and complexity.  
+    </p>
+
+    <p>
+      I've interned at Jane Street and Xantium, and I've worked on research
+      at Hazy (Stanford AI Lab) and the Stanford CS Theory Group.
+    </p>
+
+    <!-- <p>
+      I'm a Human Capital Fellow ($50k, no strings attached). I competed in USACO (Gold),
+      AIME (three-time qualifier), and PicoCTF (#18 nationally).
+    </p> -->
+
+    <p>
+      Outside of computer science, I enjoy math, linguistics, musical theater, guitar, and teaching.
+      I like spending time with friends and family, meeting new people, and trying new things!
+    </p>
+
+    <div class="links">
+      <p href="mailto:">tbreydo</p>
+      <a href="https://github.com/thomasbreydo">github</a>
+      <a href="https://linkedin.com/in/thomas-nyc">linkedin</a>
+      <a href="Thomas_Breydo_resume.pdf">resume ↗</a>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <!-- Page Info -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico">
     <title>Understanding quantum bit notation – Thomas Breydo</title>
     <meta name="description"
           content="This article breaks down how we mathematically express quantum bits and explains why each notation works.">
@@ -19,14 +19,14 @@
           content="Understanding quantum bit notation – Thomas Breydo">
     <meta name="twitter:description"
           content="This article breaks down how we mathematically express quantum bits and explains why each notation works.">
-    <meta name="twitter:image:src" content="http://localhost:4000/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg">
+    <meta name="twitter:image:src" content="https://thomasbreydo.github.io/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg">
 
     <!-- Facebook OpenGraph -->
     <meta property="og:title"
           content="Understanding quantum bit notation – Thomas Breydo"/>
     <meta property="og:description"
           content="This article breaks down how we mathematically express quantum bits and explains why each notation works."/>
-    <meta property="og:image" content="http://localhost:4000/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg"/>
+    <meta property="og:image" content="https://thomasbreydo.github.io/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg"/>
 
     
         <!-- Font Embed Code -->
@@ -35,7 +35,7 @@
 
     <!-- Styles -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- KaTeX -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.13.5/dist/katex.min.css" as="style"
@@ -86,14 +86,14 @@
 </head>
 
 
-<body class="loading ajax-loading"
-      data-site-url="http://localhost:4000" data-page-url="/blog/understanding-quantum-bit-notation">
+<body class=""
+      data-site-url="https://thomasbreydo.github.io" data-page-url="/blog/understanding-quantum-bit-notation">
 
 
 <header class="header">
 
     <div class="header-image header-image--on"
-         style="background-image: url(/assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg);"
+         style="background-image: url(../assets/images/fullsize/posts/understanding-quantum-bit-notation/feat.jpg);"
          title="Understanding quantum bit notation – Thomas Breydo"></div>
     <div class="header-image"></div>
 
@@ -103,116 +103,12 @@
 
         
             <a class="header__title" href="/">
-                Hi, I'm Thomas
+                Thomas Breydo
             </a>
         
 
-        <p class="header__tagline">Software engineer and CS student at Stanford</p>
+        <p class="header__tagline">Stanford CS and math student</p>
 
-        <div class="menu">
-            <div class="menu__toggle js-menu-toggle">
-                <div class="menu__toggle__icon"><span></span></div>
-            </div>
-            <div class="menu__wrap">
-                <ul class="menu__list">
-                    
-                        <li class="menu__list__item">
-                            <a class="menu__list__item__link"
-                               href="/">Latest</a>
-                        </li>
-                    
-                        <li class="menu__list__item">
-                            <a class="menu__list__item__link"
-                               href="/about">About</a>
-                        </li>
-                    
-                        <li class="menu__list__item">
-                            <a class="menu__list__item__link"
-                               href="/contact">Contact</a>
-                        </li>
-                    
-                </ul>
-                <ul class="socials">
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            <li class="socials__item">
-                <a href="https://tbreydo.medium.com" target="_blank" class="socials__item__link"
-                   title="Medium">
-                    <i class="fab fa-medium"
-                       aria-hidden="true"></i>
-                </a>
-            </li>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            <li class="socials__item">
-                <a href="https://github.com/thomasbreydo" target="_blank" class="socials__item__link"
-                   title="Github">
-                    <i class="fab fa-github"
-                       aria-hidden="true"></i>
-                </a>
-            </li>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            <li class="socials__item">
-                <a href="https://www.linkedin.com/in/thomas-nyc/" target="_blank" class="socials__item__link"
-                   title="Linkedin">
-                    <i class="fab fa-linkedin"
-                       aria-hidden="true"></i>
-                </a>
-            </li>
-        
-    
-</ul>
-            </div>
-        </div>
 
     </div>
 
@@ -403,7 +299,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 
 <p>And these are the two definitions that we began with:</p>
 
-<p><img src="/assets/images/fullsize/posts/understanding-quantum-bit-notation/anot-def.png" style="width:200px;" /></p>
+<p><img src="../assets/images/fullsize/posts/understanding-quantum-bit-notation/anot-def.png" style="width:200px;" /></p>
 
 <p>Note, it just happens that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><mn>100</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">1^2 = 100\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">100%</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>0</mn><mn>2</mn></msup><mo>=</mo><mn>0</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">0^2 = 0\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">0%</span></span></span></span>, so it seems the values weren’t squared.</p>
 
@@ -650,8 +546,8 @@ Also, remember, the values are squared to find the coefficients.</p>
 
 <!-- Javascript Assets -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/plugins-min.js"></script>
-<script src="/js/journal-min.js"></script>
+<script src="../js/plugins-min.js"></script>
+<script src="../js/journal-min.js"></script>
 
 
     <!-- Extra Footer JS Code -->
