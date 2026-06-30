@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/about</loc>
-<lastmod>2026-03-27T22:07:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/contact</loc>
-<lastmod>2026-03-27T22:07:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/eugene-collage</loc>
-<lastmod>2026-03-27T22:07:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/happy-bday-eugene-2026</loc>
-<lastmod>2026-03-27T22:07:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/happy-bday-max-2023</loc>
-<lastmod>2026-03-27T22:07:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/perceptron-cpp</loc>
-<lastmod>2020-07-15T08:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/making-python-code-beautiful</loc>
-<lastmod>2020-10-04T08:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/understanding-quantum-bit-notation</loc>
-<lastmod>2020-12-01T07:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/kasa</loc>
-<lastmod>2021-01-12T07:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/hackdalton-2021</loc>
-<lastmod>2021-04-25T08:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/assets/pdfs/HackDalton_2021_Solutions.pdf</loc>
-<lastmod>2023-04-09T19:41:04-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/pdfs/Proof_that_K-SAT_reduces_to_VERTEX-COVER.pdf</loc>
-<lastmod>2023-04-09T19:41:04-04:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.thomasbreydo.com/</loc>
+  </url>
 </urlset>
